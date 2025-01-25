@@ -30,8 +30,8 @@
 #  (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
 #  THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 ##############################################################################
-# Template file for 'chili-pkgname'
-pkgname=chili-pkgname
+# Template file for 'bibata-rainbow-cursor-theme'
+pkgname=bibata-rainbow-cursor-theme
 version=$(date +%Y%m%d)
 revision=$(date +%H%M)
 noarch=true
@@ -39,7 +39,7 @@ noarch=true
 #depends="gtk+3 gnome-bluetooth python3-setproctitle rfkill xapps"
 #hostmakedepends="gettext"
 hostmakedepends="git"
-short_desc="Chili PKGBUILD and template for VoidLinux"
+short_desc="Material Based Cursor Theme: Rainbow"
 maintainer="Vilmar Catafesta <vcatafesta@gmail.com>"
 license="MIT"
 homepage="https://github.com/chililinux/${pkgname}"
@@ -54,6 +54,6 @@ do_fetch() {
 }
 
 do_install() {
-  vcopy etc /
+# vcopy etc /
   vcopy usr /
 }

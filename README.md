@@ -1,3 +1,3 @@
-# chili-pkgbuild-template
+# bibata-rainbow-cursor-theme
 
-Template for Chili Linux packages
+Material Based Cursor Theme: Rainbow
